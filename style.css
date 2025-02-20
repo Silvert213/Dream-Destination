@@ -1,18 +1,43 @@
 body {
     background-color: peachpuff;
-    color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: palevioletred;
+    font-family: Verdana;
     font-size: large;
 }
 
 p{
     color: teal ;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma;
 }
 
 p2{
-    color: thistle;
+    color: teal;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'sans-serif';
 }
+p3{
+    color: palevioletred;
+    font-size: medium;
+    font-family: Verdana;
+}
+a{
+    color: darkturquoise;
+    text-decoration: none;
+}
+a:hover{
+    color: navy;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+div {
+    background-color: darkcyan;
+    color: burlywood;
+    display:inline-block;
+    padding: 10px;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+  }
